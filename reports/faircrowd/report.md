@@ -100,5 +100,5 @@ is not proof-assistant formalization.
 The previous live score remains **9/10**. A best-supported 10/10 is only a
 forecast until the live judge evaluates the published revision.
 
-- [Baseline branch](https://github.com/MachineLearning-Nerd/icml26-repro-niQUth28zn-optimal-fair-aggregation-of-crowdsourced-noisy-labels-using-demographic-pari/tree/orx/judged-monte-carlo-baseline)
-- [Winning exact-verifier branch](https://github.com/MachineLearning-Nerd/icml26-repro-niQUth28zn-optimal-fair-aggregation-of-crowdsourced-noisy-labels-using-demographic-pari/tree/orx/exact-heterogeneous-bayes-verifier)
+- [Baseline branch](https://github.com/MachineLearning-Nerd/icml26-optimal-fair-aggregation-crowdsourced-noisy-labels-demographic-parity/tree/audit/judged-monte-carlo-baseline)
+- [Winning exact-verifier branch](https://github.com/MachineLearning-Nerd/icml26-optimal-fair-aggregation-crowdsourced-noisy-labels-demographic-parity/tree/audit/exact-heterogeneous-bayes)

@@ -33,10 +33,10 @@ download and hash/traversal verification. No second Space will be created.
 
 | Node | Branch | Result | Runtime / compute |
 | --- | --- | --- | --- |
-| Judged Monte Carlo baseline | `orx/judged-monte-carlo-baseline` | C1/C3/C4/C5 pass; C2 BLOCKED | local CPU, 27.438 s script |
-| Exact heterogeneous Bayes verifier | `orx/exact-heterogeneous-bayes-verifier` | all five pass | local CPU, 39.794 s script |
-| Evaluator-visible candidate | `orx/evaluator-visible-release-candidate` | all five plus cumulative checker/controls pass | local CPU, 41.007 s script |
-| Release manifest and blind audit | `orx/release-manifest-and-blind-audit` | all five plus checker/controls pass | local CPU, 30.485 s script |
+| Judged Monte Carlo baseline | `audit/judged-monte-carlo-baseline` | C1/C3/C4/C5 pass; C2 BLOCKED | local CPU, 27.438 s script |
+| Exact heterogeneous Bayes verifier | `audit/exact-heterogeneous-bayes` | all five pass | local CPU, 39.794 s script |
+| Evaluator-visible candidate | `release/evaluator-visible-candidate` | all five plus cumulative checker/controls pass | local CPU, 41.007 s script |
+| Release manifest and blind audit | `audit/release-manifest-blind-audit` | all five plus checker/controls pass | local CPU, 30.485 s script |
 
 Scientific winning SHA:
 `10451115e7ef0ba33a07b7b1ea20a5aaca959e8f`.
