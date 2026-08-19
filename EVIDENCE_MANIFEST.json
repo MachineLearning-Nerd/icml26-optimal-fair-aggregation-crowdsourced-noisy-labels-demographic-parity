@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-optimal-fair-aggregation-crowdsourced-noisy-labels-demographic-parity",
+  "overall_verdict": "ALL_FIVE_CLAIM_CONTRACTS_VERIFIED_SCOPED_C2_ASYMPTOTIC_RECONSTRUCTED_C5_GRID_COMPARATOR",
+  "publication_boundary": "C1_C3_C4_HISTORICAL_MONTE_CARLO_C2_FINITE_R16_AND_RECONSTRUCTED_LIMIT_C5_GRID_NOT_EXACT_LP_NO_PROOF_ASSISTANT",
+  "publication_allowed": false,
+  "score_claim": false,
+  "official_author_endorsement": false,
+  "canonical_commit_identity": "MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>",
+  "historical_judge": {
+    "space_revision": "eee6b5ec719b769b952bd978850bffba2ba590c3",
+    "points": 9,
+    "total": 10,
+    "current_score_not_claimed": true,
+    "forecast_not_score": "10/10"
+  },
+  "branches": {
+    "expected_count": 6,
+    "default": "main",
+    "names": [
+      "main",
+      "audit/exact-heterogeneous-bayes",
+      "audit/judged-monte-carlo-baseline",
+      "audit/release-manifest-blind-audit",
+      "release/evaluator-visible-candidate",
+      "release/publication-surface"
+    ],
+    "mapping": "branch-audit.md"
+  },
+  "source": {
+    "paper": "arXiv:2601.23221",
+    "retrieved_html_sha256": "f6a147f01856d20e54047311773d98e90123be014ee8372b2fdac3c9f9c44835",
+    "cumulative_verdict": "PASS",
+    "controls_verdict": "FAIL_AS_EXPECTED"
+  },
+  "documentation": [
+    "README.md",
+    "CLAIM_EVIDENCE.md",
+    "SOURCE_AUDIT.md",
+    "ENVIRONMENT.md",
+    "REPORT.md",
+    "STATUS.md",
+    "CITATION.cff",
+    "AUTHOR_THANK_YOU.md",
+    "AUTONOMOUS_STATE.json",
+    "claims.json",
+    "reproduction_verdicts.json",
+    "verify_final.py"
+  ]
+}

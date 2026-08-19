@@ -14,6 +14,8 @@ The paper studies demographic-parity gaps in crowdsourced label aggregation, inc
 
 The local release bundle verifies **all five claim contracts**. Its independent cumulative checker passes, and every deliberately broken control fails as intended. The previous live judge awarded **9/10**; the possible 10/10 described in the release report is a forecast, not a judge result.
 
+The collection status is `ALL_FIVE_CLAIM_CONTRACTS_VERIFIED_SCOPED_C2_ASYMPTOTIC_RECONSTRUCTED_C5_GRID_COMPARATOR`. `publication_allowed=false`, `score_claim=false`, and `official_author_endorsement=false`; the historical 9/10 judge record is archived and no forecast is presented as a current score.
+
 | Claim | Result | How the result is produced |
 | --- | --- | --- |
 | C1 — Proposition 3.2, finite Majority Vote fairness bound | **VERIFIED** | The cumulative regression in `repro/run_all.py` checks the observed error and demographic-parity-gap trajectories against the paper’s exponential bound. The recorded error log-slope is `−0.290894`, theoretical exponent `0.263477`, and the gap shrinks from `0.05107` to `0.00453`; the tail remains Monte Carlo limited. |
@@ -55,6 +57,15 @@ The release used the pinned `uv.lock`, Python 3.12.11, deterministic seeds `1, 2
 - `release/` — upload allowlist, hashes, candidate-tree records, and blind-audit records.
 - `.openresearch/artifacts/` — internal claim contracts, source audits, cumulative outputs, and execution metadata.
 - `branch-audit.md` — purpose and migration map for every retained branch.
+- `CLAIM_EVIDENCE.md` — standalone claim-to-evidence paths, producers, controls, and boundaries.
+- `SOURCE_AUDIT.md` — paper source, model assumptions, and provenance decisions.
+- `ENVIRONMENT.md` — pinned command, runtime, seeds, and compute limits.
+- `REPORT.md` — decision record and publication boundary.
+- `STATUS.md` — current machine-readable and human-readable status.
+- `CITATION.cff` — citation metadata for the paper and this audit.
+- `AUTHOR_THANK_YOU.md` — thank-you note to the paper authors.
+- `claims.json` and `reproduction_verdicts.json` — machine-readable claim status.
+- `AUTONOMOUS_STATE.json`, `EVIDENCE_MANIFEST.json`, and `verify_final.py` — fail-closed public-state verifier.
 
 ## Historical versus current evidence
 
@@ -80,4 +91,4 @@ Thank you to Gabriel Singer, Samuel Gruffaz, Olivier Vo Van, Nicolas Vayatis, an
 
 ## Attribution
 
-The cleanup documentation and approved repository-history normalization are maintained under the **MachineLearning-Nerd** GitHub identity. Historical evidence contents, hashes, timestamps, and external Space identifiers are preserved wherever changing them would alter the audit record.
+The cleanup documentation and repository-history normalization are maintained under the **MachineLearning-Nerd** GitHub identity, using the exact commit identity `MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>`. Historical evidence contents, hashes, timestamps, and external Space identifiers are preserved wherever changing them would alter the audit record.

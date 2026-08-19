@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-optimal-fair-aggregation-crowdsourced-noisy-labels-demographic-parity",
+  "phase": "published_scoped_all_five_claim_contracts_verified",
+  "next_action": "Run verify_final.py from this repository or a fresh clone to verify the live six-branch GitHub state.",
+  "github": {
+    "url": "https://github.com/MachineLearning-Nerd/icml26-optimal-fair-aggregation-crowdsourced-noisy-labels-demographic-parity",
+    "default_branch": "main",
+    "former_name": "icml26-repro-niQUth28zn-optimal-fair-aggregation-of-crowdsourced-noisy-labels-using-demographic-pari"
+  },
+  "branch_layout": {
+    "expected_count": 6,
+    "branches": [
+      "main",
+      "audit/exact-heterogeneous-bayes",
+      "audit/judged-monte-carlo-baseline",
+      "audit/release-manifest-blind-audit",
+      "release/evaluator-visible-candidate",
+      "release/publication-surface"
+    ],
+    "forbidden_prefixes": ["orx/"],
+    "forbidden_names": ["master"]
+  },
+  "audit": {
+    "overall_verdict": "ALL_FIVE_CLAIM_CONTRACTS_VERIFIED_SCOPED_C2_ASYMPTOTIC_RECONSTRUCTED_C5_GRID_COMPARATOR",
+    "publication_boundary": "C1_C3_C4_HISTORICAL_MONTE_CARLO_C2_FINITE_R16_AND_RECONSTRUCTED_LIMIT_C5_GRID_NOT_EXACT_LP_NO_PROOF_ASSISTANT",
+    "publication_allowed": false,
+    "score_claim": false,
+    "official_author_endorsement": false,
+    "current_official_score": null
+  },
+  "historical_judge": {
+    "status": "archived_not_current",
+    "space_revision": "eee6b5ec719b769b952bd978850bffba2ba590c3",
+    "points": 9,
+    "total": 10,
+    "current_score_not_claimed": true,
+    "forecast_not_score": "10/10"
+  },
+  "attribution": {
+    "name": "MachineLearning-Nerd",
+    "email": "MachineLearning-Nerd@users.noreply.github.com",
+    "canonical_identity": "MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>"
+  },
+  "history": {
+    "recovery_bundle_sha256": "caa527343728a68c6a233b88c501af00c32dcd21753a431e2de65e8b21c07f5a",
+    "published_main_parent": "18bd1c09e788608422b26ef85cd5b2646d412733",
+    "expected_reachable_commits": 9,
+    "old_identity_present": false,
+    "rewrite_backup_refs_removed": true
+  },
+  "documentation": {
+    "readme": true,
+    "claim_evidence": true,
+    "source_audit": true,
+    "environment": true,
+    "report": true,
+    "citation": true,
+    "author_thank_you": true,
+    "status": true,
+    "machine_readable_verdicts": true,
+    "final_verifier": true
+  },
+  "live_verification": {
+    "remote_push_required_before_pass": true,
+    "fresh_clone_required_before_pass": true,
+    "command": "python3 verify_final.py"
+  }
+}

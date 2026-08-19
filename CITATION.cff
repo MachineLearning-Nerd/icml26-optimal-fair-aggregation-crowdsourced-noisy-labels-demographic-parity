@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "Optimal Fair Aggregation of Crowdsourced Noisy Labels — ICML 2026 reproduction audit"
+message: "Please cite the paper and this repository when using the audit code or evidence."
+type: software
+authors:
+  - name: MachineLearning-Nerd
+    affiliation: Independent reproduction collection
+repository-code: "https://github.com/MachineLearning-Nerd/icml26-optimal-fair-aggregation-crowdsourced-noisy-labels-demographic-parity"
+url: "https://github.com/MachineLearning-Nerd/icml26-optimal-fair-aggregation-crowdsourced-noisy-labels-demographic-parity"
+date-released: 2026-08-19
+preferred-citation:
+  type: article
+  title: "Optimal Fair Aggregation of Crowdsourced Noisy Labels using Demographic Parity Constraints"
+  authors:
+    - given-names: Gabriel
+      family-names: Singer
+    - given-names: Samuel
+      family-names: Gruffaz
+    - given-names: Olivier
+      family-names: Vo Van
+    - given-names: Nicolas
+      family-names: Vayatis
+    - given-names: Argyris
+      family-names: Kalogeratos
+  year: 2026
+  journal: "arXiv"
+  url: "https://arxiv.org/abs/2601.23221"
+  identifiers:
+    - type: doi
+      value: "10.48550/arXiv.2601.23221"

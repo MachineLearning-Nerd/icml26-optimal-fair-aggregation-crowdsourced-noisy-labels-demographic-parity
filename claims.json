@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-optimal-fair-aggregation-crowdsourced-noisy-labels-demographic-parity",
+  "overall_verdict": "ALL_FIVE_CLAIM_CONTRACTS_VERIFIED_SCOPED_C2_ASYMPTOTIC_RECONSTRUCTED_C5_GRID_COMPARATOR",
+  "publication_boundary": "C1_C3_C4_HISTORICAL_MONTE_CARLO_C2_FINITE_R16_AND_RECONSTRUCTED_LIMIT_C5_GRID_NOT_EXACT_LP_NO_PROOF_ASSISTANT",
+  "publication_allowed": false,
+  "score_claim": false,
+  "official_author_endorsement": false,
+  "claims": [
+    {"id": "C1", "status": "verified_scoped_historical_monte_carlo", "source_status": "VERIFIED"},
+    {"id": "C2", "status": "verified_scoped_finite_r16_asymptotic_reconstruction", "source_status": "VERIFIED"},
+    {"id": "C3", "status": "verified_scoped_finite_fairness_bound", "source_status": "VERIFIED"},
+    {"id": "C4", "status": "verified_scoped_sufficient_condition", "source_status": "VERIFIED"},
+    {"id": "C5", "status": "verified_scoped_grid_comparator", "source_status": "VERIFIED"}
+  ]
+}

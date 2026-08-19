@@ -16,4 +16,4 @@ The old `orx/` prefix identified evidence-development stages. All live branches 
 - No evidence-development branch was discarded during cleanup.
 - The live GitHub repository uses only the clean names above; no `orx/*` or `master` branch remains.
 - `main` is the default branch and contains the human-readable README and this audit.
-- All reachable commit authors and committers are normalized to `MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>`; scientific artifact contents and historical identifiers remain unchanged.
+- All reachable commit authors and committers are normalized to `MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>`; scientific artifact contents and historical identifiers remain unchanged.
